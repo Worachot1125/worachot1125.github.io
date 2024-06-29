@@ -1,0 +1,30 @@
+.info {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 800px;
+    border: 5px solid #8ae184;
+    padding: 1px;
+}
+
+.imgPro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.img {
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color:rgb(131, 234, 199);
+    padding: 10px;
+}
+.head2{
+    margin-left: 100px;
+}
+.contact{
+    margin-left: 100px;
+}
