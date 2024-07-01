@@ -28,3 +28,14 @@ header {
 .contact{
     margin-left: 100px;
 }
+body{
+    background-color: beige;
+}
+.work{
+    margin-left: 100px;
+
+}
+.works{
+    margin-right: 800px;
+    border: 2px solid #acd95d;
+}
