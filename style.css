@@ -49,3 +49,27 @@ body{
 img {
     border-radius: 10%;
 }
+.button {
+    padding:0;
+    margin:0;
+    border:none;
+    font-size:14px;
+    background: url(../img/button.gif) no-repeat center;
+    color: #000000;
+    height:27px;
+    width:134px; 
+    font-variant:small-caps;
+}
+
+.button:hover {
+    padding:0;
+    margin:0;
+    border:none;
+    font-size:14px;
+    background: url(../img/button.gif) no-repeat center;
+    color: #FF0000;
+    height:27px;
+    width:134px; 
+    text-decoration:none;
+    font-variant:small-caps;
+}
