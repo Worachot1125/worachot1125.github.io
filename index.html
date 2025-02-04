@@ -68,35 +68,4 @@
             </button>
         </div>
     </div>
-    <div class="slideshow-container">
-        <a href="https://example.com/image1" target="_blank" class="slide">
-            <img src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/460639569_2029872224123587_
-            3133892145293240309_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=v2GINFfvIWQQ7kNvgFcZ
-            _6r&_nc_zt=23&_nc_ht=scontent.fbkk13-1.fna&_nc_gid=A2vIXjHNGtRS5f5vpxJi_dB&oh=00_AYBW_cWEGBG6gqisK_rWJ7owVklTehyBnXvxBDI
-            -EIIfuQ&oe=67A7B245" alt="Image 1">
-        </a>
-        <a href="https://example.com/image2" target="_blank" class="slide">
-            <img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/459929157_2027185737725569_4747333206892964042_n.jpg?_nc_
-            cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=Td-N71K9AGQQ7kNvgFLp6-p&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&_nc_gid=Ao
-            KVkLTSNYzNoW67BvEh&oh=00_AYDGsa7boR2B-GZTkxn_7OD9LDQI8JxJBReua_b-_nxf9Q&oe=67A7AF88" alt="Image 2">
-        </a>
-        <a href="https://example.com/image3" target="_blank" class="slide">
-            <img src="https://scontent.fbkk12-3.fna.fbcdn.net/v/t1.6435-9/55575591_652136891897134_5546716861376233472_n.jpg?_nc_cat
-            =108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=SXhxEnd5tHEQ7kNvgG4VMQo&_nc_zt=23&_nc_ht=scontent.fbkk12-3.fna&_nc_gid=
-            AiSrDtDVTtx14eXgX9o0wPr&oh=00_AYCbrFnKyZeXB1PbGZLQrHf7llbr47hFm8lbIAPWHIC0hg&oe=67C9576D" alt="Image 3">
-        </a>
-    </div>
-    <script>
-        let index = 0;
-        const slides = document.querySelectorAll('.slide');
-        
-        function showSlide() {
-            slides.forEach(slide => slide.classList.remove('active'));
-            slides[index].classList.add('active');
-            index = (index + 1) % slides.length;
-        }
-        
-        setInterval(showSlide, 3000); // เปลี่ยนทุก 3 วินาที
-        showSlide();
-        </script>
 </html>
