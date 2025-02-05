@@ -8,25 +8,13 @@
         3px 3px 5px #5250504d;
 }
 
-.imgPro {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-
-.img {
-    margin: 0px;
-    margin-bottom: 50px;
-}
-
 header {
     background-color: rgb(131, 234, 199);
     padding: 10px;
 }
 
 .contact {
-    margin-left: 100px
+    margin-left: 270px
 }
 
 body {
