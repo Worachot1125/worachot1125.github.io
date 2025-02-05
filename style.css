@@ -1,12 +1,11 @@
 .info {
-    margin-left: 100px;
     margin-right: 50px;
     width: 30%;
     padding: 30px;
     border-radius: 20px;
     background: #98f092;
     box-shadow: -3px -3px 7px #ffffff,
-                3px 3px 5px #5250504d;
+        3px 3px 5px #5250504d;
 }
 
 .imgPro {
@@ -22,33 +21,89 @@
 }
 
 header {
-    background-color:rgb(131, 234, 199);
+    background-color: rgb(131, 234, 199);
     padding: 10px;
 }
-.head2{
-    margin-left: 100px;
+
+.contact {
+    margin-left: 100px
 }
-.contact{
-    margin-left: 100px;
-}
-body{
+
+body {
     background-color: beige;
 }
-.work{
-    margin-left: 100px;
 
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
 }
-.works{
-    width: 30%;
-    padding: 40px;
+
+
+.work {
+    flex: 1;
+}
+
+.works {
+    width: 100%;
+    padding: 20px;
     border-radius: 20px;
     background: #98f092;
-    box-shadow: -3px -3px 7px #ffffff,
-                3px 3px 5px #5250504d;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #5250504d;
 }
+
+.skills {
+    flex: 1;
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+}
+
+.progress {
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress div {
+    height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.html {
+    width: 90%;
+    background: linear-gradient(135deg, #f16529, #e44d26);
+}
+
+.js {
+    width: 80%;
+    background: linear-gradient(135deg, #f7df1e, #e4c300);
+}
+
+.java {
+    width: 70%;
+    background: linear-gradient(135deg, #5382a1, #2a4d69);
+}
+
+.csharp {
+    width: 60%;
+    background: linear-gradient(135deg, #68217a, #512b58);
+}
+
 img {
     border-radius: 10%;
 }
+
 .button-submit {
     display: inline-block;
     padding: 12px 20px;
@@ -73,4 +128,31 @@ a.button-submit:hover {
 a.button-submit:active {
     transform: translateY(1px);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #5250504d;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.imgPro {
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+    background: #98f092;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #5250504d;
 }
